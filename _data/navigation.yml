@@ -1,9 +1,9 @@
 # main links
 main:
-  - title: "Archive"
+  - title: "타임라인"
     url: /year-archive/
-  - title: "Category"
-    url: /categories/
+  - title: "서랍장"
+    url: /tags/
   # - title: "Quick-Start Guide"
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
