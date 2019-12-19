@@ -1,8 +1,8 @@
 ---
-layout: post
 title:  "프로그래머스 타겟넘버[DFS BFS/Java]"
 date:   2019-10-10
-categories: algorithm
+tags: [algorithm]
+toc: true 
 ---
 
 문제 분류 : DFS/BFS

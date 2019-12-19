@@ -1,8 +1,8 @@
 ---
-layout: post
 title:  "프로그래머스 H-Index[정렬/Java]"
 date:   2019-10-8
-category: algorithm
+tags: [algorithm]
+toc: true 
 ---
 
 문제 분류 : 정렬

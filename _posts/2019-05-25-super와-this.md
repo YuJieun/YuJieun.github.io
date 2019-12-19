@@ -1,8 +1,8 @@
 ---
-layout: post
 title:  "super와 this"
 date:   2019-05-25
-category:java
+tags: [java]
+toc: true 
 ---
 
 super, this 키워드는 객체와 상속과 관련 있다.
