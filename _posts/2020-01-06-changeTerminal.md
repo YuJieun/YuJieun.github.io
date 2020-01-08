@@ -31,5 +31,5 @@ toc: true
 
 8. 완료
 
-   ![terminal](./assets/images/terminal.png)
+   ![terminal](../assets/images/terminal.png)
 
