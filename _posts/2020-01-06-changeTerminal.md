@@ -31,4 +31,5 @@ toc: true
 
 8. 완료
 
-   ![terminal](https://github.com/YuJieun/YuJieun.github.io/blob/master/assets/images/terminal.png)
+   ![terminal](./assets/images/terminal.png)
+
