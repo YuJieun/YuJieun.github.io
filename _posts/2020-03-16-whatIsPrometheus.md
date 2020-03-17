@@ -1,5 +1,5 @@
 ---
-title: "[Prometheus/프로메테우스]"
+title: "[Prometheus/프로메테우스]에 관하여"
 date:  2020-03-16
 tags: [Something,Prometheus]
 toc: true
