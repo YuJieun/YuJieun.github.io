@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "iOS"
+    url: /categories/iOS/
   - title: "타임라인"
     url: /year-archive/
   - title: "서랍장"
