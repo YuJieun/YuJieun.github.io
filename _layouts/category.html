@@ -1,9 +1,40 @@
----
-layout: archive
----
-
-{{ content }}
-
-<div class="entries-{{ page.entries_layout }}">
-  {% include posts-category.html taxonomy=page.taxonomy type=page.entries_layout %}
-</div>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2022.2">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 26.0px; font: 13.0px Courier; color: #2a2a2a; -webkit-text-stroke: #2a2a2a; background-color: #f6f6f6}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 26.0px; font: 13.0px Courier; color: #d40061; -webkit-text-stroke: #d40061; background-color: #f6f6f6}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 26.0px; font: 13.0px Courier; color: #2a2a2a; -webkit-text-stroke: #2a2a2a; background-color: #f6f6f6; min-height: 16.0px}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 26.0px; font: 13.0px Courier; color: #00006d; -webkit-text-stroke: #00006d; background-color: #f6f6f6}
+    span.s1 {font-kerning: none}
+    span.s2 {font-kerning: none; color: #00006d; -webkit-text-stroke: 0px #00006d}
+    span.s3 {font-kerning: none; color: #2a2a2a; -webkit-text-stroke: 0px #2a2a2a}
+    span.s4 {font-kerning: none; color: #0e6e6d; -webkit-text-stroke: 0px #0e6e6d}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">---</span></p>
+<p class="p1"><span class="s1">layout: default</span></p>
+<p class="p1"><span class="s1">---</span></p>
+<p class="p2"><span class="s2"><b>&lt;ul</b></span><span class="s3"> </span><span class="s4">class=</span><span class="s1">"posts-list"</span><span class="s2"><b>&gt;</b></span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">  </span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% assign category = page.category | default: page.title %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% for post in site.categories[category] %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s2"><b>&lt;li&gt;</b></span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s2"><b>&lt;h3&gt;</b></span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s2"><b>&lt;a</b></span><span class="s3"> </span><span class="s4">href=</span><span class="s1">"{{ site.baseurl }}{{ post.url }}"</span><span class="s2"><b>&gt;</b></span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>{{ post.title }}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s2"><b>&lt;/a&gt;</b></span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s2"><b>&lt;small&gt;</b></span><span class="s1">{{ post.date | date_to_string }}</span><span class="s2"><b>&lt;/small&gt;</b></span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s2"><b>&lt;/h3&gt;</b></span></p>
+<p class="p4"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s1"><b>&lt;/li&gt;</b></span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% endfor %}</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">  </span></span></p>
+<p class="p4"><span class="s1"><b>&lt;/ul&gt;</b></span></p>
+</body>
+</html>
