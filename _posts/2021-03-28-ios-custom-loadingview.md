@@ -14,7 +14,7 @@ categories: [iOS]
 
 
 
-### 로딩 스피너 이미지 찾기
+## 로딩 스피너 이미지 찾기
 
 먼저, https://loading.io/ 요기서 내가 원하는 스피너 gif파일을 다운로드 받았다.
 
@@ -22,7 +22,7 @@ categories: [iOS]
 
 
 
-### 로딩할때 띄우는 view생성하기
+## 로딩할때 띄우는 view생성하기
 
 [요기](http://minsone.github.io/mac/ios/easy-make-loading-animation-popup-view-in-swift)를 참고해서 구현을 했다
 
@@ -62,7 +62,7 @@ backgroundview는 로딩스피너 뒤에 흐린불투명한 뷰를 깔아주기 
 
 
 
-### gif띄우기
+## gif띄우기
 
 ```swift
 let popupView = GIFImageView()
@@ -76,7 +76,7 @@ popupView.prepareForAnimation(withGIFNamed: "spinner")
 
 
 
-### 로딩뷰 show
+## 로딩뷰 show
 
 최상위뷰에 뷰를 붙이고 싶었다. 구글을 찾아보니 예제에는 UIApplication.shared.keyWindow 요거를 써서 addsubview를 해주던데, 요게 ios13에서 deprecated되었기 때문에 **if** **#available**(**iOS** 13.0, *) 분기처리 해주었다.
 
@@ -125,7 +125,7 @@ if #available(iOS 13.0, *) {
 
 
 
-### 로딩뷰 hide
+## 로딩뷰 hide
 
 ```swift
 class func hide() {
@@ -144,7 +144,7 @@ class func hide() {
 
 
 
-### 사용하기
+## 사용하기
 
 ```swift
 CustomLoadingView.show()
